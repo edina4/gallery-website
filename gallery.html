@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=g, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+
+<header class="Landing-2">
+        <nav>
+            <img class="logo"
+                 src="images/alairas.jpg">
+            <div class="navigation-l" id="navigation-l1">
+                    
+                <li><a href="main.html">Home</a></li>
+                    
+                <li><a href="gallery.html">Gallery</a></li>
+                     
+                <li><a href="contact.html">Contact</a></li>
+                    
+            </div>
+        </nav>
+</header>
+    
+<div class="pagename">
+        <p>Gallery</p> 
+</div>
+
+<body>
+<div class="container">     
+    <div class="row">
+        <div class="popup-image">
+            <img id="imgPopup" onclick="hideImage()"></img> 
+        </div>     
+        
+        <div class="column">
+            <div class="img"><img src="images/cornel-small.jpg.jpeg" style="width:100%" onclick="showImage('images/cornel.jpg.jpeg')"></div>
+            <div class="img"><img src="images/face-small.jpg.jpeg" style="width:100%" onclick="showImage('images/face.jpg.jpeg')"></div>
+            <div class="img"><img src="images/falu-small.jpg.jpeg" style="width:100%" onclick="showImage('images/falu.jpg.jpeg')"></div>
+                    
+        </div>
+                    
+        <div class="column">
+            <div class="img"><img src="images/onarc-small.jpg.jpeg" style="width:100%" onclick="showImage('images/onarc.jpg.jpeg')"></div>
+            <div class="img"><img src="images/osz-small.jpg.jpeg" style="width:100%" onclick="showImage('images/osz.jpg.jpeg')"></div>
+            <div class="img"><img src="images/szivar-small.jpg.jpeg" style="width:100%" onclick="showImage('images/szivar.jpg.jpeg')"></div>
+                
+        </div> 
+                    
+        <div class="column">
+            <div class="img"><img src="images/karacsonyfa-small.jpg.jpeg" style="width:100%" onclick="showImage('images/karacsonyfa.jpg.jpeg')"></div>
+            <div class="img"><img src="images/merengo-small.jpg" style="width:100%" onclick="showImage('images/merengo.jpg')"></div>
+            <img src="" style="width:100%">
+                
+        </div>
+                    
+        <div class="column">
+            <div class="img"><img src="images/smoking-small.jpg.jpeg" style="width:100%" onclick="showImage('images/smoking.jpg.jpeg')"></div>
+            <div class="img"><img src="images/itist-small.jpg.jpeg" style="width:100%" onclick="showImage('images/itist.jpg.jpeg')"></div>
+            <div class="img"><img src="images/goodnightkiss-small.jpg.jpeg" style="width:100%" onclick="showImage('images/goodnightkiss.jpg.jpeg')"></div>
+        </div>
+               
+    </div>
+</div>  
+    
+ </body>
+ <script src="./index.js"></script>   
+    
+
+</html>
